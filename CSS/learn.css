@@ -1,0 +1,54 @@
+#container{
+    width: 80%;
+    background-color: rgb(230, 228, 228);
+    margin: auto;
+    padding: 20px;
+}
+
+.cards{
+    width: 50%;
+    border: rgb(247, 248, 244) 1px outset;
+    margin: auto;
+    background-color: rgb(241, 243, 245);
+    border-radius: 10px;
+}
+
+.header{
+    background-color: aliceblue;
+    margin: 10px;
+    overflow: hidden;
+
+    display: flex;
+}
+
+.header h3{
+    color: rgb(57, 85, 2);
+    font-size: medium;
+}
+
+.pPic{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.pPic img{
+    margin: auto;
+    clip-path: circle();
+    overflow: hidden;
+}
+
+.images{
+    border-radius: 10px;
+    padding: 60px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.images img{
+    border-radius: 0px;
+}
+

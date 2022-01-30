@@ -1,0 +1,77 @@
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#logo{
+    color: rgb(18, 190, 32);
+    background-color: black;
+    text-decoration: overline;
+}
+
+.moto{
+    position: absolute;
+    left: 15%;
+    width: 20%;
+    min-width: 120px;
+    background-color:rgb(141, 143, 7);
+    color: azure;
+}
+
+.moto h3{
+    margin: 12px;
+}
+
+.logen{
+
+}
+
+a{
+    color: rgb(8, 212, 100);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(141, 143, 7);
+}
+
+.forms{
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.forms label{
+    display: block;
+    color: rgb(58, 139, 206);
+}
+
+.forms input[type="text"]{
+    width: 30%;
+    min-width: 40px;
+    max-width: 300px;
+    margin-bottom: 30px;
+    height: 25px;
+}
+
+.forms input[type="password"]{
+    width: 30%;
+    margin-bottom: 30px;
+    height: 25px;
+}
+
+.forms input[type="submit"]{
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+#forgot{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

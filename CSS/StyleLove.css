@@ -1,0 +1,22 @@
+body{
+    background-color: #f4f4f4;
+    color: green;
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+}
+
+h1{
+    position: absolute;
+    /*right: 300px;*/
+}
+
+.Nardos{
+    font-size: 20px;
+    font-style: italic;
+    font: 400;
+    color: aquamarine;
+    background-color: blueviolet;
+}
